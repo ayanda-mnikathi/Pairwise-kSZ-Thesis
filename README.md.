@@ -1,0 +1,58 @@
+# Detection of Kinematic Sunyaev–Zel'dovich Signals Using the Pairwise Momentum Estimator
+
+## Research Overview
+
+This repository contains the Python code developed for the MSc research project investigating the detection of the kinematic Sunyaev–Zel'dovich (kSZ) signal using the pairwise momentum estimator.
+
+The analysis uses galaxy data from the Dark Energy Spectroscopic Instrument (DESI) D56 catalogue and temperature data from the Atacama Cosmology Telescope (ACT).
+
+## Objectives
+
+The main objectives of the analysis are:
+
+- To measure the pairwise kSZ signal as a function of comoving separation.
+- To compare the measured signal with theoretical predictions.
+- To estimate the statistical uncertainties using bootstrap and jackknife resampling.
+- To constrain the effective optical depth by fitting the theoretical pairwise kSZ model to the measurements.
+
+## Methodology
+
+The analysis implements the pairwise momentum estimator to investigate the relative peculiar velocities of galaxy pairs and their associated kSZ temperature signal.
+
+The analysis includes:
+
+1. Preparation and processing of the DESI D56 galaxy catalogue.
+2. Selection of galaxy pairs and calculation of their comoving separations.
+3. Measurement of the pairwise kSZ signal using ACT temperature data.
+4. Theoretical modelling of the pairwise velocity signal.
+5. Covariance estimation using bootstrap and jackknife resampling.
+6. Optical-depth estimation through comparison with theoretical predictions.
+
+## Data
+
+The analysis uses the DESI D56 galaxy catalogue and ACT D56 temperature maps.
+
+The original observational datasets are not included in this repository. They must be obtained separately from their respective data sources.
+
+The data file paths in the Python code may need to be adjusted to match the user's local environment.
+
+## Software and Tools
+
+The analysis was developed using Python and scientific computing libraries for numerical calculations, data processing, cosmological modelling and statistical analysis.
+
+## Reproducibility
+
+The Python code is provided to document the analysis procedures and support the reproducibility and independent examination of the research.
+
+Users wishing to reproduce the results must obtain the required observational datasets and configure the corresponding file paths.
+
+## Author
+
+Ayanda Samkelisiwe Mnikathi
+
+MSc Research Project  
+School of Chemistry and Physics  
+University of KwaZulu-Natal  
+Durban, South Africa
+
+Supervisor: Dr M. S. Mdlalose
